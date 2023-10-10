@@ -3,6 +3,7 @@ import TextSize from './componentes/TextSize'
 import TextPerson from './componentes/TextPerson'
 import TextColor from './componentes/TextColor'
 import TextBackground from './componentes/TextBackground'
+import Imagem from './componentes/Imagem'
 
 function App() {
 
@@ -10,12 +11,10 @@ function App() {
     <>
     <div className='container'>
       <TextSize/>
-
       <TextPerson/>
-
       <TextColor/>
-
       <TextBackground/>
+      <Imagem/>
     </div>
     </>
   )

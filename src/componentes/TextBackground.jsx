@@ -1,10 +1,11 @@
 export default function TextBackground(){
     return (
         <>
-        <p className="h1">lorem isppspum</p>
-        <p className="h2">lorem isppspum</p>
-        <p className="h3">lorem isppspum</p>
-        <p className="h4">lorem isppspum</p>
+        <p className="bg-primary">lorem isppspum</p>
+        <p className="bg-info">lorem isppspum</p>
+        <p className="bg-warning">lorem isppspum</p>
+        <p className="bg-danger">lorem isppspum</p>
+        <p className="bg-success">lorem isppspum</p>
         <hr />
         </>
     )
